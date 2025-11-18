@@ -1,6 +1,6 @@
 # ONNXRuntime Test Results — Provider: `DnnlExecutionProvider`
 
-**Test Date:** 2025-11-18 14:39:59
+**Test Date:** 2025-11-18 14:52:59
 
 ## Test Methodology
 
