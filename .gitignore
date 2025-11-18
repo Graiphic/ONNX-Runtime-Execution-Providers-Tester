@@ -1,0 +1,59 @@
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Project-generated artifacts to ignore
+# ========================
+
+# Folders containing generated ONNX models and profiling files
+**/profiling/
+**/models/
+**/training_artifacts/
+
+# ========================
+# Note:
+# - Do NOT ignore .xlsx, .png, README.md files, or test.txt.
+# - If you introduce other temporary or log files (e.g., *.log, *.tmp), you can add them here.
+# - Adjust this list if you add new generated directories to the project.
+# ========================

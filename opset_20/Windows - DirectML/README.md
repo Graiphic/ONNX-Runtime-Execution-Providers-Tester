@@ -1,6 +1,6 @@
 # ONNXRuntime Test Results — Provider: `DmlExecutionProvider`
 
-**Test Date:** 2025-08-29 10:43:36
+**Test Date:** 2025-11-18 14:35:54
 
 ## Test Methodology
 

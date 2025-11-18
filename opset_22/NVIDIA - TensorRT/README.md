@@ -1,6 +1,6 @@
 # ONNXRuntime Test Results — Provider: `TensorrtExecutionProvider`
 
-**Test Date:** 2025-08-29 10:48:36
+**Test Date:** 2025-11-18 14:41:55
 
 ## Test Methodology
 
@@ -33,9 +33,9 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 
 - **CPU:** Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
 - **GPU(s):** NVIDIA GeForce RTX 2070
-- **CUDA version:** 12.9
-- **cuDNN version:** 9.12.0
-- **TensorRT version:** 10.9.0
+- **CUDA version:** 12.8
+- **cuDNN version:** 9.13.1
+- **TensorRT version:** Unknown
 
 ## Basic ONNX Nodes
 
@@ -48,13 +48,13 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`ArgMin`](https://onnx.ai/onnx/operators/onnx__ArgMin.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`AveragePool`](https://onnx.ai/onnx/operators/onnx__AveragePool.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`BatchNormalization`](https://onnx.ai/onnx/operators/onnx__BatchNormalization.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`Bernoulli`](https://onnx.ai/onnx/operators/onnx__Bernoulli.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
+| [`Bernoulli`](https://onnx.ai/onnx/operators/onnx__Bernoulli.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`BitShift`](https://onnx.ai/onnx/operators/onnx__BitShift.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`BitwiseAnd`](https://onnx.ai/onnx/operators/onnx__BitwiseAnd.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`BitwiseNot`](https://onnx.ai/onnx/operators/onnx__BitwiseNot.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`BitwiseOr`](https://onnx.ai/onnx/operators/onnx__BitwiseOr.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`BitwiseXor`](https://onnx.ai/onnx/operators/onnx__BitwiseXor.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
-| [`BlackmanWindow`](https://onnx.ai/onnx/operators/onnx__BlackmanWindow.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`BlackmanWindow`](https://onnx.ai/onnx/operators/onnx__BlackmanWindow.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Cast`](https://onnx.ai/onnx/operators/onnx__Cast.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`CastLike`](https://onnx.ai/onnx/operators/onnx__CastLike.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`CenterCropPad`](https://onnx.ai/onnx/operators/onnx__CenterCropPad.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
@@ -68,7 +68,7 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`Conv`](https://onnx.ai/onnx/operators/onnx__Conv.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`ConvInteger`](https://onnx.ai/onnx/operators/onnx__ConvInteger.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`ConvTranspose`](https://onnx.ai/onnx/operators/onnx__ConvTranspose.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`CumSum`](https://onnx.ai/onnx/operators/onnx__CumSum.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`CumSum`](https://onnx.ai/onnx/operators/onnx__CumSum.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`DFT`](https://onnx.ai/onnx/operators/onnx__DFT.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`DeformConv`](https://onnx.ai/onnx/operators/onnx__DeformConv.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`DepthToSpace`](https://onnx.ai/onnx/operators/onnx__DepthToSpace.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
@@ -93,9 +93,9 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`Greater`](https://onnx.ai/onnx/operators/onnx__Greater.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`GreaterOrEqual`](https://onnx.ai/onnx/operators/onnx__GreaterOrEqual.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`GridSample`](https://onnx.ai/onnx/operators/onnx__GridSample.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`GroupNormalization`](https://onnx.ai/onnx/operators/onnx__GroupNormalization.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
-| [`HammingWindow`](https://onnx.ai/onnx/operators/onnx__HammingWindow.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
-| [`HannWindow`](https://onnx.ai/onnx/operators/onnx__HannWindow.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`GroupNormalization`](https://onnx.ai/onnx/operators/onnx__GroupNormalization.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
+| [`HammingWindow`](https://onnx.ai/onnx/operators/onnx__HammingWindow.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
+| [`HannWindow`](https://onnx.ai/onnx/operators/onnx__HannWindow.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`HardSigmoid`](https://onnx.ai/onnx/operators/onnx__HardSigmoid.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`HardSwish`](https://onnx.ai/onnx/operators/onnx__HardSwish.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Hardmax`](https://onnx.ai/onnx/operators/onnx__Hardmax.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
@@ -127,8 +127,8 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`Mul`](https://onnx.ai/onnx/operators/onnx__Mul.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Multinomial`](https://onnx.ai/onnx/operators/onnx__Multinomial.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
 | [`NegativeLogLikelihoodLoss`](https://onnx.ai/onnx/operators/onnx__NegativeLogLikelihoodLoss.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`NonMaxSuppression`](https://onnx.ai/onnx/operators/onnx__NonMaxSuppression.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
-| [`NonZero`](https://onnx.ai/onnx/operators/onnx__NonZero.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`NonMaxSuppression`](https://onnx.ai/onnx/operators/onnx__NonMaxSuppression.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
+| [`NonZero`](https://onnx.ai/onnx/operators/onnx__NonZero.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Not`](https://onnx.ai/onnx/operators/onnx__Not.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Not`](https://onnx.ai/onnx/operators/onnx__Not.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`OneHot`](https://onnx.ai/onnx/operators/onnx__OneHot.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
@@ -162,11 +162,11 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`Reshape`](https://onnx.ai/onnx/operators/onnx__Reshape.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Resize`](https://onnx.ai/onnx/operators/onnx__Resize.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`ReverseSequence`](https://onnx.ai/onnx/operators/onnx__ReverseSequence.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`RoiAlign`](https://onnx.ai/onnx/operators/onnx__RoiAlign.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
+| [`RoiAlign`](https://onnx.ai/onnx/operators/onnx__RoiAlign.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`STFT`](https://onnx.ai/onnx/operators/onnx__STFT.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`Scan`](https://onnx.ai/onnx/operators/onnx__Scan.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`ScatterElements`](https://onnx.ai/onnx/operators/onnx__ScatterElements.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`ScatterND`](https://onnx.ai/onnx/operators/onnx__ScatterND.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`ScatterND`](https://onnx.ai/onnx/operators/onnx__ScatterND.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`SequenceAt`](https://onnx.ai/onnx/operators/onnx__SequenceAt.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`SequenceConstruct`](https://onnx.ai/onnx/operators/onnx__SequenceConstruct.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
 | [`SequenceEmpty`](https://onnx.ai/onnx/operators/onnx__SequenceEmpty.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
@@ -176,7 +176,7 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 | [`SequenceMap`](https://onnx.ai/onnx/operators/onnx__SequenceMap.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
 | [`Shape`](https://onnx.ai/onnx/operators/onnx__Shape.html) | ![UNKNOWN](https://img.shields.io/badge/UNKNOWN-AAAAAA?style=flat&logoColor=white) |
 | [`Size`](https://onnx.ai/onnx/operators/onnx__Size.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
-| [`Slice`](https://onnx.ai/onnx/operators/onnx__Slice.html) | ![FALLBACK](https://img.shields.io/badge/FALLBACK-FFAA00?style=flat&logoColor=white) |
+| [`Slice`](https://onnx.ai/onnx/operators/onnx__Slice.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`SoftmaxCrossEntropyLoss`](https://onnx.ai/onnx/operators/onnx__SoftmaxCrossEntropyLoss.html) | ![FAIL](https://img.shields.io/badge/FAIL-FF0000?style=flat&logoColor=white) |
 | [`SpaceToDepth`](https://onnx.ai/onnx/operators/onnx__SpaceToDepth.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
 | [`Split`](https://onnx.ai/onnx/operators/onnx__Split.html) | ![SUCCESS](https://img.shields.io/badge/SUCCESS-00AA44?style=flat&logoColor=white) |
@@ -199,13 +199,13 @@ manual build with CUDA 12.5, cuDNN 9.2.1, TensorRT 10.9.0.34
 
 ### Inference Summary
 - **Total nodes tested:** 155
-- **Executable directly (SUCCESS):** 87 (56.1%)
+- **Executable directly (SUCCESS):** 98 (63.2%)
 - **Executable directly (SUCCESS with complexification):** 0 (0.0%)
-- **Executable via FALLBACK:** 58 (37.4%)
+- **Executable via FALLBACK:** 50 (32.3%)
 - **UNKNOWN (no Node event):** 2 (1.3%)
 - **NOT TESTED:** 0 (0.0%)
 - **SKIPPED:** 0 (0.0%)
-- **FAIL:** 8 (5.2%)
+- **FAIL:** 5 (3.2%)
 
 ![Pie Chart](./stats_TensorrtExecutionProvider_basic.png)
 

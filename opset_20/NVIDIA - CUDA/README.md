@@ -1,6 +1,6 @@
 # ONNXRuntime Test Results — Provider: `CUDAExecutionProvider`
 
-**Test Date:** 2025-08-29 10:46:28
+**Test Date:** 2025-11-18 14:39:18
 
 ## Test Methodology
 
@@ -33,8 +33,8 @@ pip install onnxruntime-gpu
 
 - **CPU:** Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
 - **GPU(s):** NVIDIA GeForce RTX 2070
-- **CUDA version:** 12.9
-- **cuDNN version:** 9.12.0
+- **CUDA version:** 12.8
+- **cuDNN version:** 9.13.1
 
 ## Basic ONNX Nodes
 
